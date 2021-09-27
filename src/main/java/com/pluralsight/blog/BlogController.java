@@ -9,6 +9,7 @@ public class BlogController {
     @RequestMapping("/")
     public String listPosts(ModelMap modelMap){
         modelMap.put("title","Blog post 1");
+        modelMap.put("title2","blog post 2");
         return "home";
     }
 }
